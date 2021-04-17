@@ -1,4 +1,6 @@
 import React from "react";
+import Card from "./Card";
+import Prodata from "./Prodata";
 
 const Projects = () => {
   return (
@@ -12,44 +14,19 @@ const Projects = () => {
       {/* reversed */}
       <ul class="list-non-bullet">
         <li>
-          <div class="container container-center">
-            <h1>FOREX TRADING WEBSITE</h1>
-            <small>January, 2021</small>
-            <p>
-              A Forex Market Website, This is my <strong>Freelancing</strong>{" "}
-              Website
-            </p>
-            <a
-              class="link link-primary"
-              href="https://rquizs.netlify.app/"
-              target="_blank"
-            >
-              Live Projects
-            </a>
-            <a class="link link-secondary" href="#">
-              View Source
-            </a>
-          </div>
-        </li>
-        <li>
-          <div class="container container-center">
-            <h1>IT COMPANY WEBSITE</h1>
-            <small>November, 2020</small>
-            <p>
-              This Webiste is Design for Ziasy Consulting Pvt Ltd, Where i am
-              Working
-            </p>
-            <a
-              class="link link-primary"
-              href="https://ziasy-company.netlify.app/"
-              target="_blank"
-            >
-              Live Projects
-            </a>
-            <a class="link link-secondary" href="#">
-              View Source
-            </a>
-          </div>
+          {Prodata.map((val, ind) => {
+            return (
+              <Card
+                key={ind}
+                title={val.title}
+                date={val.date}
+                content={val.content}
+                link={val.link}
+                primary_button={val.primary_button}
+                secondary_button={val.secondary_button}
+              />
+            );
+          })}
         </li>
       </ul>
     </>

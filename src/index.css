@@ -27,12 +27,13 @@ hr {
 .link {
   text-decoration: none;
   padding: 0.5rem 1rem;
-  /* margin: 1rem 0; */
+  /* margin: 1rem 3px; */
 }
 .link-primary {
   background-color: var(--primary-color);
-  border-radius: 00.5rem;
+  border-radius: 0 0.5rem;
   color: #fff;
+  margin: 0 5px 0 0;
 }
 .link-secondary {
   color: var(--primary-color);
@@ -67,14 +68,13 @@ hr {
 }
 .active-menu {
   font-weight: bold;
-  border-bottom: 2px solid;
 }
 /* header */
 .hero {
   padding: 2rem;
 }
 .hero .hero-image {
-  max-width: 350px;
+  max-width: 300px;
   display: block;
   margin: auto;
 }
@@ -123,6 +123,7 @@ hr {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+
 @keyframes example {
   0% {
     color: red;
@@ -135,5 +136,22 @@ hr {
   }
   100% {
     color: green;
+  }
+}
+
+@media (min-device-width: 350px) and (max-device-width: 500px) {
+  .navigation {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 1rem 0.3rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .navigation .nav-pills {
+    text-align: left;
+    padding: 0;
+  }
+  .list-item-inline {
+    display: inline;
+    padding: 0rem 0rem;
   }
 }
