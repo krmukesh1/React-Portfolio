@@ -9,6 +9,7 @@ const Common = (props) => {
         <img
           className="hero-image"
           src={process.env.PUBLIC_URL + "/images/hero.svg"}
+          alt="home-image"
         />
         <h1 className="hero-heading">
           Hey! I am <span className="heading-inverted"> {props.name}</span>

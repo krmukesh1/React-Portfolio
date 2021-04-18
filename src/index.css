@@ -129,6 +129,9 @@ hr {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
+h1.contact {
+  text-align: center;
+}
 form {
   padding: 50px 94px;
 }
@@ -160,7 +163,7 @@ input[type="submit"] {
   }
 }
 
-@media (min-device-width: 350px) and (max-device-width: 768px) {
+@media (min-device-width: 350px) and (max-device-width: 767px) {
   .navigation {
     background-color: var(--primary-color);
     color: #fff;
@@ -178,9 +181,10 @@ input[type="submit"] {
   form {
     padding: 50px 56px;
   }
-  input#fname,
-  input#lname,
-  input#email {
+  input#name,
+  input#phone,
+  input#email,
+  input#msg {
     width: 200px;
     padding: 5px;
     margin: 0 auto;

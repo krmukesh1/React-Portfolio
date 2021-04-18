@@ -25,6 +25,7 @@ const Contact = () => {
   return (
     <>
       <div className="container container-center">
+        <h1 className="contact">Contact Us</h1>
         <form onSubmit={formSubmit}>
           <label htmlFor="fname">First name:</label>
           <br />

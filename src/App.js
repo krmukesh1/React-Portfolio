@@ -1,5 +1,10 @@
 import React from "react";
-import { Switch, Route, Redirect } from "react-router-dom";
+import {
+  HashRouter as Router,
+  Switch,
+  Route,
+  Redirect,
+} from "react-router-dom";
 import Home from "./Component/Home";
 import Projects from "./Component/Projects";
 import Blogs from "./Component/Blogs";
@@ -11,13 +16,15 @@ export const App = () => {
   return (
     <>
       <Navbar />
-      <Switch>
-        <Route exact path="/" component={Home} />
-        <Route exact path="/projects" component={Projects} />
-        <Route exact path="/contact" component={Contact} />
-        <Route exact path="/blogs" component={Blogs} />
-        <Redirect to="/" />
-      </Switch>
+      <Router>
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/projects" component={Projects} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/blogs" component={Blogs} />
+          <Redirect to="/" />
+        </Switch>
+      </Router>
       <Footer />
     </>
   );
