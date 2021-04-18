@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "./Card";
-import Prodata from "./Prodata";
+import Prodata from "../data/Prodata";
 
 const Projects = () => {
   return (
@@ -21,7 +21,8 @@ const Projects = () => {
                 title={val.title}
                 date={val.date}
                 content={val.content}
-                link={val.link}
+                plink={val.plink}
+                slink={val.slink}
                 primary_button={val.primary_button}
                 secondary_button={val.secondary_button}
               />

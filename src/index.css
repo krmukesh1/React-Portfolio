@@ -48,7 +48,10 @@ hr {
   display: inline;
   padding: 0rem 0.5rem;
 }
-
+.contact .list-item-inline {
+  display: block;
+  padding: 0.5rem;
+}
 /* navigation */
 .navigation {
   background-color: var(--primary-color);
@@ -72,6 +75,9 @@ hr {
 /* header */
 .hero {
   padding: 2rem;
+}
+.blog {
+  padding: 8.1rem;
 }
 .hero .hero-image {
   max-width: 300px;
@@ -123,7 +129,22 @@ hr {
   animation-duration: 4s;
   animation-iteration-count: infinite;
 }
-
+form {
+  padding: 50px 94px;
+}
+input#name,
+input#phone,
+input#email,
+input#msg {
+  width: 400px;
+  padding: 5px;
+  margin: 0 auto;
+  display: flex;
+}
+input[type="submit"] {
+  display: flex;
+  margin: 0 auto;
+}
 @keyframes example {
   0% {
     color: red;
@@ -139,7 +160,7 @@ hr {
   }
 }
 
-@media (min-device-width: 350px) and (max-device-width: 500px) {
+@media (min-device-width: 350px) and (max-device-width: 768px) {
   .navigation {
     background-color: var(--primary-color);
     color: #fff;
@@ -153,5 +174,16 @@ hr {
   .list-item-inline {
     display: inline;
     padding: 0rem 0rem;
+  }
+  form {
+    padding: 50px 56px;
+  }
+  input#fname,
+  input#lname,
+  input#email {
+    width: 200px;
+    padding: 5px;
+    margin: 0 auto;
+    display: flex;
   }
 }

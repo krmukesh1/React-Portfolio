@@ -1,12 +1,14 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
-import web from "../images/hero.svg";
 import Common from "./Common";
 
 const Home = () => {
   return (
     <>
-      <Common name="Mukesh Kumar" imgsrc={web} />
+      <Common
+        name="Mukesh Kumar"
+        techtitle="Technology"
+        techcontent="I am familiar with HTML5, CSS3, Bootstrap, Git, Javascript, ReactJs, NodeJs and Web Hosting"
+      />
     </>
   );
 };

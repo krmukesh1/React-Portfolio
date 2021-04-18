@@ -6,7 +6,10 @@ const Common = (props) => {
     <>
       {/* header  */}
       <header className="hero">
-        <img className="hero-image" src={props.imgsrc} />
+        <img
+          className="hero-image"
+          src={process.env.PUBLIC_URL + "/images/hero.svg"}
+        />
         <h1 className="hero-heading">
           Hey! I am <span className="heading-inverted"> {props.name}</span>
         </h1>
@@ -14,11 +17,8 @@ const Common = (props) => {
       {/* offwhite section  */}
       <section className="section ow">
         <div className="container container-center">
-          <h1>Technology</h1>
-          <p>
-            I am familiar with HTML5, CSS3, Bootstrap, Git, Javascript, ReactJs,
-            NodeJs and Web Hosting
-          </p>
+          <h1>{props.techtitle}</h1>
+          <p>{props.techcontent}</p>
         </div>
       </section>
       {/* white section  */}
@@ -42,7 +42,7 @@ const Common = (props) => {
             I am also working on some technical and non technical blogs. I like
             to documnet my joourney of learning
           </p>
-          <NavLink className="link link-secondary" to="/">
+          <NavLink className="link link-secondary" to="/blogs">
             Read Blogs
           </NavLink>
         </div>
