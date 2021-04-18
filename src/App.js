@@ -14,19 +14,19 @@ import Footer from "./Component/Footer";
 
 export const App = () => {
   return (
-    <>
+    <Router>
       <Navbar />
-      <Router>
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route exact path="/projects" component={Projects} />
-          <Route exact path="/contact" component={Contact} />
-          <Route exact path="/blogs" component={Blogs} />
-          <Redirect to="/" />
-        </Switch>
-      </Router>
+
+      <Switch>
+        <Route exact path="/" component={Home} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/contact" component={Contact} />
+        <Route exact path="/blogs" component={Blogs} />
+        <Redirect to="/" />
+      </Switch>
+
       <Footer />
-    </>
+    </Router>
   );
 };
 
