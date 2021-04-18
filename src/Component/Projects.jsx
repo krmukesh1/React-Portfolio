@@ -1,6 +1,6 @@
 import React from "react";
+import PROJECT_DATA from "../data";
 import Card from "./Card";
-import Prodata from "../data/Prodata";
 
 const Projects = () => {
   return (
@@ -14,7 +14,7 @@ const Projects = () => {
       {/* reversed */}
       <ul class="list-non-bullet">
         <li>
-          {Prodata.map((val, ind) => {
+          {PROJECT_DATA.map((val, ind) => {
             return (
               <Card
                 key={ind}

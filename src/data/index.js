@@ -1,9 +1,9 @@
-const Prodata = [
+const PROJECT_DATA = [
   {
     title: "Ecommerce Website",
     date: "April, 2021",
     content:
-      "This is a Custom Website and Design For Personal Development in Ecommerce Sector",
+      "This is a Custom Website and Design for Personal Development in Ecommerce Sector",
     plink: "https://ecommercesit.netlify.app/",
     slink: "https://github.com/krmukesh1/SASSL-DESIGN",
     primary_button: " Live Projects",
@@ -49,4 +49,4 @@ const Prodata = [
   },
 ];
 
-export default Prodata;
+export default PROJECT_DATA;

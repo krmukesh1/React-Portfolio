@@ -18,10 +18,11 @@ export const App = () => {
       <Navbar />
 
       <Switch>
-        <Route exact path="/" component={Home} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/contact" component={Contact} />
         <Route exact path="/blogs" component={Blogs} />
+        <Route exact path="/" component={Home} />
+
         <Redirect to="/" />
       </Switch>
 
