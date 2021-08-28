@@ -1,5 +1,25 @@
 const PROJECT_DATA = [
   {
+    title: "Payment Services Website",
+    date: "August, 2021",
+    content:
+      "This Website is Develop for Payment GateWay Services Creats Using React JS",
+    plink: "https://krmukesh1.github.io/Payment-site/",
+    slink: "https://github.com/krmukesh1/Payment-site",
+    primary_button: " Live Projects",
+    secondary_button: " View Source",
+  },
+  {
+    title: "Digital Marketing Website",
+    date: "June, 2021",
+    content:
+      "This is a Custom Website and Design for Digital Marketing Company",
+    plink: "https://digitalrootz.in/",
+
+    primary_button: " Live Projects",
+    secondary_button: " View Source",
+  },
+  {
     title: "Ecommerce Website",
     date: "April, 2021",
     content:
@@ -19,16 +39,16 @@ const PROJECT_DATA = [
     secondary_button: " View Source",
   },
   {
-    title: "FOREX TRADING WEBSITE",
+    title: "Stock Trading Website",
     date: "January, 2021",
     content: " This Webiste is Design for Stock Market Trading Company",
-    plink: "https://rquizs.netlify.app/",
-    slink: "https://github.com/krmukesh1/Research_Quizs",
+    plink: "https://researchfreelancefinancial.com/",
+    slink: "https://github.com/krmukesh1/freelancefinancial",
     primary_button: " Live Projects",
     secondary_button: " View Source",
   },
   {
-    title: "IT COMPANY WEBSITE",
+    title: "IT Company Website",
     date: "November, 2020",
     content:
       "This Webiste is Design for Ziasy Consulting Pvt Ltd, Where i am Working",
