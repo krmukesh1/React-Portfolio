@@ -148,20 +148,6 @@ input[type="submit"] {
   display: flex;
   margin: 0 auto;
 }
-@keyframes example {
-  0% {
-    color: red;
-  }
-  25% {
-    color: cyan;
-  }
-  50% {
-    color: blue;
-  }
-  100% {
-    color: green;
-  }
-}
 
 @media (min-device-width: 350px) and (max-device-width: 767px) {
   .navigation {
