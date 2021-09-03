@@ -23,6 +23,11 @@ export const Footercommon = (props) => {
               linkedin
             </a>
           </li>
+          <li className="list-item-inline">
+            <a className="link" href={props.link4}>
+              Blogs
+            </a>
+          </li>
         </ul>
         <div className="footer-header">Contact Us</div>
         <ul className="social-links list-non-bullet contact">
