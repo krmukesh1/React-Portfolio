@@ -1,6 +1,6 @@
 const PROJECT_DATA = [
   {
-    title: "Check Stock Portfolio",
+    title: "Check Stock Portfolio Profit & Loss",
     date: "September, 2021",
     content: "Check Your Portfolio is in Loss or Profit",
     plink: " https://mark-14.netlify.app/",
