@@ -1,5 +1,23 @@
 const PROJECT_DATA = [
   {
+    title: "Quiz App",
+    date: "September, 2021",
+    content: "Quiz app",
+    plink: "https://quiz-apps1.netlify.app/",
+    slink: "https://krmukesh1.github.io/Quiz-app/",
+    primary_button: " Live Projects",
+    secondary_button: " View Source",
+  },
+  {
+    title: "Creative Design",
+    date: "September, 2021",
+    content: "Web Design For Personal Development",
+    plink: "https://brain-inventory.netlify.app/",
+    slink: "https://krmukesh1.github.io/Bi-Task/",
+    primary_button: " Live Projects",
+    secondary_button: " View Source",
+  },
+  {
     title: "Check Stock Portfolio Profit & Loss",
     date: "September, 2021",
     content: "Check Your Portfolio is in Loss or Profit",
