@@ -92,8 +92,7 @@ const PROJECT_DATA = [
       "A CLI app built with nodeJS. A Small Fun Cricket game Sends Your Friends and Find Who is Biggest fan of Dhoni ",
     plink:
       "https://replit.com/@mukesh51/Cricket-Quiz?embed=1&output=1#index.js",
-    slink:
-      "https://replit.com/@mukesh51/Cricket-Quiz?embed=1&output=1#index.js",
+    slink: "https://github.com/krmukesh1/Cricket-Quiz",
     primary_button: " Live Projects",
     secondary_button: " View Source",
   },
