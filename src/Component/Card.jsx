@@ -9,7 +9,7 @@ const Card = (props) => {
         <a className="link link-primary" href={props.plink} target="_blank">
           {props.primary_button}
         </a>
-        <a className="link link-secondary" href={props.slink}>
+        <a className="link link-secondary" href={props.slink} target="_blank">
           {props.secondary_button}
         </a>
       </div>

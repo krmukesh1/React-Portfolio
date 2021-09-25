@@ -149,7 +149,7 @@ input[type="submit"] {
   margin: 0 auto;
 }
 
-@media (min-device-width: 350px) and (max-device-width: 767px) {
+@media (max-width: 767px) {
   .navigation {
     background-color: var(--primary-color);
     color: #fff;

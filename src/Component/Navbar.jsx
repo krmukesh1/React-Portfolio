@@ -27,6 +27,7 @@ const Navbar = () => {
               Contact
             </NavLink>
           </li>
+
           <li className="list-item-inline">
             <NavLink className="link" to="/blogs">
               Blogs
