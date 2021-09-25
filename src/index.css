@@ -11,6 +11,9 @@ body {
 hr {
   margin: 2rem 0;
 }
+p {
+  line-height: 25px;
+}
 /* spaces */
 .margin-md {
   margin: 2rem;
@@ -21,7 +24,7 @@ hr {
 }
 .container-center {
   max-width: 600px;
-  margin: auto;
+  margin: 50px auto;
 }
 /* links */
 .link {
