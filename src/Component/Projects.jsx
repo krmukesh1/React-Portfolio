@@ -13,7 +13,7 @@ const Projects = () => {
         </h1>
       </header>
       {/*Company Data reversed */}
-      <ul class="list-non-bullet">
+      {/* <ul class="list-non-bullet">
         <li>
           {COMPANY_DATA.map((val, ind) => {
             return (
@@ -30,9 +30,9 @@ const Projects = () => {
             );
           })}
         </li>
-      </ul>
+      </ul> */}
       {/*Neog Data reversed */}
-      {/* <ul class="list-non-bullet">
+      <ul class="list-non-bullet">
         <li>
           {PROJECT_DATA.map((val, ind) => {
             return (
@@ -49,7 +49,7 @@ const Projects = () => {
             );
           })}
         </li>
-      </ul> */}
+      </ul>
     </>
   );
 };
