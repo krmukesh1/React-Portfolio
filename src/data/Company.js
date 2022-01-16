@@ -3,7 +3,7 @@ const COMPANY_DATA = [
     title: "Shopping Cart",
     date: "January, 2022",
     content: "Create a Shooping Cart using React Js Context API and useReducer",
-    plink: "https://github.com/krmukesh1/shopping-cart",
+    plink: "https://krmukesh1.github.io/shopping-cart/",
     slink: "https://github.com/krmukesh1/shopping-cart",
     primary_button: " Live Projects",
     secondary_button: " View Source",
