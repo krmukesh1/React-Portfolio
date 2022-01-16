@@ -1,5 +1,14 @@
 const COMPANY_DATA = [
   {
+    title: "Shopping Cart",
+    date: "January, 2022",
+    content: "Create a Shooping Cart using React Js Context API and useReducer",
+    plink: "https://github.com/krmukesh1/shopping-cart",
+    slink: "https://github.com/krmukesh1/shopping-cart",
+    primary_button: " Live Projects",
+    secondary_button: " View Source",
+  },
+  {
     title: "Bloomia App",
     date: "October, 2021",
     content: "Just like a Stopwatch Timer for Breathing System",
