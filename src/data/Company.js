@@ -1,5 +1,14 @@
 const COMPANY_DATA = [
   {
+    title: "Dashboard",
+    date: "January, 2022",
+    content: "Create a Simple Dashboard using React Hooks, Array Methods and Bootstrap ",
+    plink: "https://github.com/krmukesh1/dashboard",
+    slink: "https://krmukesh1.github.io/dashboard/#",
+    primary_button: " Live Projects",
+    secondary_button: " View Source",
+  },
+  {
     title: "Shopping Cart",
     date: "January, 2022",
     content: "Create a Shooping Cart using React Js Context API and useReducer",
