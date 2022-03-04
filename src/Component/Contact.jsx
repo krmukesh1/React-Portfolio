@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-
+import emailjs from "emailjs-com";
 const Contact = () => {
   const [data, setData] = useState({
     name: "",
@@ -20,7 +20,29 @@ const Contact = () => {
 
   const formSubmit = (e) => {
     e.preventDefault();
-    alert(`${data.name} ${data.phone} ${data.email} ${data.msg}`);
+
+    emailjs
+      .sendForm(
+        "service_ej1aaip",
+        "template_5wpdkwy",
+        e.target,
+        "e8xvcI-_oe_aaIslJ"
+      )
+      .then(
+        (result) => {
+          console.log(result.text);
+          alert("Back to You");
+          setData({
+            name: "",
+            phone: "",
+            email: "",
+            msg: "",
+          });
+        },
+        (error) => {
+          console.log(error.text);
+        }
+      );
   };
   return (
     <>
@@ -32,7 +54,7 @@ const Contact = () => {
           <input
             type="text"
             onChange={InputEvent}
-            value={data.fname}
+            value={data.name}
             id="name"
             name="name"
           />
