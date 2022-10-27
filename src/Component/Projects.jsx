@@ -15,7 +15,7 @@ const Projects = () => {
       {/*Company Data reversed */}
       <ul class="list-non-bullet">
         <li>
-          {COMPANY_DATA.map((val, ind) => {
+          {PROJECT_DATA.map((val, ind) => {
             return (
               <Card
                 key={ind}
